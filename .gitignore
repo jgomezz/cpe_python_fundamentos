@@ -1,0 +1,51 @@
+.DS_Store
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Byte-compiled / archivos optimizados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caché de herramientas de Python
+.pytest_cache/
+.hypothesis/
+.tox/
+
+# Distribución / empaquetado
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Archivos de entorno y credenciales (IMPORTANTE)
+.env
+.venv
+SECRET_KEY.txt
+*.pem
+
+# IDEs y Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs
+*.log
