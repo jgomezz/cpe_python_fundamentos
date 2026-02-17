@@ -9,8 +9,8 @@ Author : Jaime Gomez
 # Defino una variable string
 nombre =  "Jaime Gomez"
 
-
 print("hola mundo :", nombre)
+
 nro_favorito = 12
 print("Mi numero favorito es :", nro_favorito)
  
