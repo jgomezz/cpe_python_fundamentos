@@ -1,7 +1,7 @@
 '''
 Programa : Programacion Basica con Pthon
 Sesion 01 : Introduccion
-Fecha : 18/05/2020
+Fecha : 18/05/202x
 Version : 1
 Author : Jaime Gomez
 '''

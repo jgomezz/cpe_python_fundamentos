@@ -2,7 +2,7 @@
 Curso : Programacion Basica de Python
 Sesion : 02 
 Tema : Introduccion a Python -  Librerias
-Fecha : 13/11/2020
+Fecha : 13/11/202x
 Author : Jaime Gomez
 
 '''

@@ -2,7 +2,7 @@
 Curso : Programacion Basica de Python
 Sesion : 01 
 Tema : Introduccion a Python -  Bucles
-Fecha : 08/02/2020
+Fecha : 08/02/202x
 Author : Jaime Gomez
 
 '''

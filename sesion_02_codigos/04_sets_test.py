@@ -2,7 +2,7 @@
 Curso : Programacion Basica de Python
 Sesion : 02 
 Tema : Introduccion a Python -  Sets
-Fecha : 15/02/2020
+Fecha : 15/02/202x
 Author : Jaime Gomez
 
 '''

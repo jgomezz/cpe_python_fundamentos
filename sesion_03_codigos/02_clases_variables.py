@@ -2,7 +2,7 @@
 Curso : Programacion Basica de Python
 Sesion : 03
 Tema : Introduccion a Python -  Variables de clases
-Fecha : 22/02/2020
+Fecha : 22/02/202x
 Author : Jaime Gomez
 
 '''

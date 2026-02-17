@@ -2,7 +2,7 @@
 Curso : Programacion Basica de Python
 Sesion : 02 
 Tema : Introduccion a Python -  Archivos
-Fecha : 25/05/2020
+Fecha : 25/05/202x
 Author : Jaime Gomez
 
 '''

@@ -2,7 +2,7 @@
 Curso : Programacion Basica de Python
 Sesion : 02 
 Tema : Introduccion a Python -  Diccionarios
-Fecha : 22/02/2020
+Fecha : 22/02/202x
 Author : Jaime Gomez
 
 '''

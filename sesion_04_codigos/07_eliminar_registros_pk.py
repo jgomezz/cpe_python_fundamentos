@@ -2,7 +2,7 @@
 Curso : Programacion Basica de Python
 Sesion : 04
 Tema : Introduccion a Python -  Eliminar registros
-Fecha : 29/02/2020
+Fecha : 29/02/202x
 Author : Jaime Gomez
 '''
 
