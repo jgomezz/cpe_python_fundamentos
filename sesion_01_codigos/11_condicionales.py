@@ -11,18 +11,20 @@ Author : Jaime Gomez
 #     Condicional : if
 #####################################
 '''
- El estudiante aprueba con 11, en 
- este caso se le envia su constancia
- virtual
+ Para que un estudiante pase un curso , 
+ debe aprobar con la nota minima de 11. 
+ , si aprueba se le envia su constancia
+ virtual de aprobacion.
 '''
-'''
+
+#'''
 
 NOTA_MINIMA = 11
 
-nota_final  = 10 # nota final
+nota_final  = 18 # nota final
 
 if nota_final >= NOTA_MINIMA:
-    print("Envio de constancia virtual")
+    print("Envio de constancia virtual de aprobacion")
 
 #'''
 
@@ -60,7 +62,7 @@ else :
  tiene una nota menor a 10 solo se le envia su nota final.
 '''
 
-#'''
+'''
 NOTA_MINIMA_APROB = 11
 NOTA_MINIMA_RECUP = 10
 
@@ -86,7 +88,7 @@ else:
 #'''
 
 
-
+'''
 # Conditional expression
 
 res =  "Jaime " if False else "Jose"
@@ -100,3 +102,4 @@ print( res)
 if True :
     pass
 
+'''
