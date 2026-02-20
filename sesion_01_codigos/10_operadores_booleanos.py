@@ -3,7 +3,7 @@
 
 
 '''
-  X         Y       AND
+  a         b       AND
   False   False    False
   True    False    False
   False   True     False
@@ -17,7 +17,7 @@ print(op1)
 
 
 '''
-  X   Y   OR
+  a   b   OR
   0   0    False
   0   1    True
   1   0    True

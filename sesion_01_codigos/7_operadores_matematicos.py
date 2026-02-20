@@ -1,7 +1,7 @@
 
 # Operaciones matematicas
 
-a, b = 2,3
+a, b = 20,3
 
 suma = a + b
 print("suma =",suma)
