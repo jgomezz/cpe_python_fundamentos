@@ -18,17 +18,16 @@ valores enteros 0 y max-1
 print(range(21))
 
 
-
-
-for i in range(4):
+for _ in range(4):
     print("Hola mundo ..!")
-
 
 
 for i in range(4):
     print("Hola mundo ..! ",i)
 
-exit(-1)
+
+
+#exit(0)
 
 '''
 La funcion range(min, max) devuelve 

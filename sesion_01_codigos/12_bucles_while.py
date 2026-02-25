@@ -18,9 +18,12 @@ Imprimir los numeros del 1 al 9
 '''
 
 cont = 0
-while cont < 5:
+while cont < 9:
     cont +=1   # cont = cont + 1
     print(cont)
+
+
+exit(0)
 
 
 #####################################
