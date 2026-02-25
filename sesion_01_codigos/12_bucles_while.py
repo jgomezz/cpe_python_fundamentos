@@ -23,7 +23,7 @@ while cont < 9:
     print(cont)
 
 
-exit(0)
+
 
 
 #####################################
@@ -68,7 +68,7 @@ while cont < 9:
 #    print("end cont = ", cont)
 
 #####################################
-#     Loops : while  break
+#     Loops : while  continue
 #####################################
 
 print("------------------------")
