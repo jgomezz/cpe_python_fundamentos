@@ -23,3 +23,13 @@ print(nro_impares)
 nro_impares = numeros[1::2]
 print(nro_impares)
 
+
+# Invertir una cadena
+
+#odalnuM aloH
+
+cadena = "odnuM aloH"
+cadena_invertida = cadena[-1:-11:-1]
+print(cadena_invertida)
+cadena_invertida = cadena[::-1]
+print(cadena_invertida)
