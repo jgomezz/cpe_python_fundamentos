@@ -44,5 +44,18 @@ print(participantes)
 
 Generar una lista con los números del 100 al 199,
 luego retirar los primeros 15 ticket y mostrarlos en una lista aparte.
+'''
+
 
 '''
+Fragmento del Quijote
+
+En efecto, rematado ya su juicio, vino a dar en el más extraño pensamiento que jamás dio loco en el mundo, y fue que le pareció convenible y necesario, así para el aumento de su honra como para el servicio de su república, hacerse caballero andante
+
+'''
+
+fragmento = "En efecto, rematado ya su juicio, vino a dar en el más extraño pensamiento que jamás dio loco en el mundo, y fue que le pareció convenible y necesario, así para el aumento de su honra como para el servicio de su república, hacerse caballero andante"
+
+
+print(fragmento)
+
