@@ -32,3 +32,10 @@ Cual fue la tasa de crecimiento promedio
 
 
 '''
+
+
+tasas = (2.8, -0.4, 3.5, 3.4, 3.2)
+
+for tasa in tasas:
+    print(tasa)
+
