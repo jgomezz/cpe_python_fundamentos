@@ -11,18 +11,35 @@ Author : Jaime Gomez
 '''
 1ra pregunta
 '''
-color = ["Azul","Rojo", "Verde"]
-
+color = ["Azul","Rojo", "Verde", "Blanco", "Blanco"]
+print(color)
 '''
 2da pregunta
 '''
-color = {"Azul","Rojo", "Verde"}
-print(len(color))
+color = {"Azul","Rojo", "Verde", "Blanco"}
+print(color)
 
 '''
 3ra pregunta
 '''
-color = {"Azul","Rojo", "Verde"}
+color = {"Azul","Rojo", "Verde", "Blanco", "Blanco"}
+print(color)
 
-print(len(color))
+print("------------ SALON DE CLASES --------------------------")
+
+participantes = ["Jaime", "Maria", "Pedro", "Jaime", "Maria", "Juan","Juan", "Ana", "Ana", "Ana"]
+print(participantes)
+
+nombres_unico = set(participantes)
+print(nombres_unico)
+
+for nombre in nombres_unico:
+    print(f"El nombre {nombre} aparece {participantes.count(nombre)} veces en la lista")
+
+
+
+
+
+
+
 
