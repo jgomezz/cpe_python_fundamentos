@@ -39,7 +39,16 @@ for nombre in nombres_unico:
 
 
 
+## IN
+sports = ("Soccer","Tennis","Baseball","Squash")
+
+existShotting = "Shotting" in sports
+
+print("sports          :", sports)
+print("existShotting   :", existShotting)
 
 
+existSoccer = "Soccer" in sports
+print("existSoccer     :", existSoccer)
 
 
