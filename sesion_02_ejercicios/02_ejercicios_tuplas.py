@@ -20,3 +20,15 @@ b) recorrer la tupla usando un for
    y mostrar todos los valores a exception del 40 y 70
 
 '''
+'''
+Ejercicio 2
+
+Crear una tupla con la tasa de crecimiento del Peru entre los años 2010 y 2020, luego mostrar la tasa de crecimiento del año 2022 y 2026
+
+Mostrar las tasas de crecimiento por cada año
+Cual fue la menor tasa de crecimiento
+Cual fue la mayor tasa de crecimiento
+Cual fue la tasa de crecimiento promedio
+
+
+'''
