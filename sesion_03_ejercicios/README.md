@@ -33,6 +33,32 @@ print(doc_jaime.obtener_login())
 ```
 
 
+'''
+Ejercicio
+
+Crear la clase InstitutoEducativo que tengas los atributos
+codigo, nombre, ubicacion, descripcion, anho_fundacion, ruc
+Debe tener los metodos : obtener_ruc , obtener_info
+
+Usarlo para crear 3 objetos de institutos
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Ejemplo de una tabla
 |Titulo|Descripcion|Observacion|
 |-|-|-|
