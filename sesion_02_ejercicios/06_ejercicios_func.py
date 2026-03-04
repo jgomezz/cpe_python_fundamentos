@@ -43,3 +43,16 @@ dependiendo del valor de ope, se realizara la suma, resta, multiplicacion o divi
 
 '''
 
+print("-----------------Ejercicio propuesto---------------------------")
+
+def f_suma(x,y=10):
+    s = x + y  
+    return s
+
+a = 2
+b = 80
+suma  = f_suma(a,b)
+print(suma)
+
+suma  = f_suma(a)
+print(suma)
