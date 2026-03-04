@@ -1,4 +1,3 @@
-|-|-|-|
 |Titulo|Descripcion|Observacion|
 |-|-|-|
 |Python|Lenguaje de Programacion|-|
