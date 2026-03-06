@@ -20,7 +20,7 @@ class Empleado:
         self.nombre = nombre
         self.apellido = apellido
         
-    def nombre_completo(self):
+    def obtener_nombre_completo(self):
         return self.nombre + " " + self.apellido
 
 
@@ -29,10 +29,10 @@ class Desarrollador(Empleado):
     pass
 
 emp_01 = Empleado("Juan","Acosta")
-print(emp_01.nombre_completo())
+print(emp_01.obtener_nombre_completo())
 
 des_01 = Desarrollador("Jaime","Gomez")
-print(des_01.nombre_completo())
+print(des_01.obtener_nombre_completo())
 
 
 '''
@@ -57,7 +57,7 @@ class Empleado:
         self.apellido = apellido
         self.ciudad = ciudad
         
-    def nombre_completo(self):
+    def obtener_nombre_completo(self):
         return self.nombre + " " + self.apellido + " " + self.ciudad
 
  # Clase hija
@@ -68,12 +68,12 @@ class Admin(Empleado):
     pass
 
 emp_01 = Empleado("Juan","Acosta","Lima")
-print(emp_01.nombre_completo())
+print(emp_01.obtener_nombre_completo())
 des_01 = Desarrollador("Jaime","Gomez")
-print(des_01.nombre_completo(),' es de: ',des_01.ciudad)
+print(des_01.obtener_nombre_completo(),' es de: ',des_01.ciudad)
 
 admin_01 = Admin('Juan','Sanchez')
-print(admin_01.nombre_completo())
+print(admin_01.obtener_nombre_completo())
 
 
 #'''
