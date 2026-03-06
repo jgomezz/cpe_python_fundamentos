@@ -11,7 +11,7 @@ Author : Jaime Gomez
 Para debug en mac : export LC_ALL=C
 '''
 
-''' Primera version  : Metodo de clase
+#''' Primera version  : Metodo de clase
 class Empleado:
 
     aumento  = 1.10

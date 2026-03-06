@@ -116,3 +116,46 @@ Docente.institucion = "TECSUP"
 print(doc_jaime.institucion)
 print(doc_gerardo.institucion)
 print(doc_enrique.institucion)
+
+
+print('----------- Quinta Version > Modificar atributo de clase ------------------')
+
+class Docente:
+
+    institucion = "UTEC" # Atributo de clase
+
+    # Constructor de la clase
+    def __init__(self, codigo, nombre, apellido, edad):
+        self.codigo = codigo
+        self.nombre = nombre
+        self.apellido = apellido
+        self.edad = edad
+
+
+    def obtener_info(self):
+        ret = f'Código: {self.codigo}, Nombre: {self.nombre} {self.apellido}, Edad: {self.edad}'
+        return ret
+    
+    def obtener_login(self):
+        ret = self.nombre[0].lower() + self.apellido.lower()
+        return ret
+    
+    @classmethod
+    def modificar_institucion(cls, nueva_institucion):
+        cls.institucion = nueva_institucion
+
+doc_jaime = Docente(1, 'Jaime', 'García', 30) # Se instancia una clase
+doc_gerardo = Docente(2, 'Gerardo', 'Martínez', 25) # Se instancia una clase
+doc_enrique = Docente(3, 'Enrique', 'López', 35) # Se instancia una clase
+
+
+print(doc_jaime.institucion)
+print(doc_gerardo.institucion)
+print(doc_enrique.institucion)
+
+print('>> Modifico el atributo de clase a través de un metodo de clase')
+Docente.modificar_institucion("TECSUP")
+
+print(doc_jaime.institucion)
+print(doc_gerardo.institucion)
+print(doc_enrique.institucion)
