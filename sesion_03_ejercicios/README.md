@@ -43,7 +43,7 @@ codigo, nombre, ubicacion, descripcion, anho_fundacion, ruc
 
 
 
-## Introducción a Herencia en Python
+## Introducción a Herencias en Python
 
 <img src="imagenes/herencia.png"/>
 
