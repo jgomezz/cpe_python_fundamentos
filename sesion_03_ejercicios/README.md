@@ -89,7 +89,7 @@ print(instructor.obtener_nombre_completo())
 
 ## Herencias y sobrecargas en Python
 
-<img src="imagenes/herencias_completas.png"/>
+<img src="imagenes/herencias_completa.png"/>
 
 
 ```python
