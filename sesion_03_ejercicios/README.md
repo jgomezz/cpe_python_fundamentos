@@ -165,7 +165,7 @@ print(instructor.obtener_exp_instructor())
 ### Ejercicio Propuesto de Herencias de clases
 
 
-<img src="imagenes/herencias_ejercicios.png"/>
+<img src="imagenes/herencias_ejercicio.png"/>
 
 
 
