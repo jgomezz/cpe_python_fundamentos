@@ -70,14 +70,17 @@ class Administrador(Empleado):
 
 class Desarrollador(Empleado):
     
-    def __init__(self, nombre, apellido, ciudad, experto_lenguaje_prog):
+    def __init__(self, nombre, apellido, ciudad, experto_lenguaje_prog, pago_por_hora = 100):
         super().__init__(nombre, apellido, ciudad) # Llamada al constructor de la clase base    
         self.experto_lenguaje_prog = experto_lenguaje_prog
+        self.pago_por_hora = pago_por_hora
 
     def obtener_experiencia(self):
         return f"El desarrollador {self.nombre} es experto en {self.experto_lenguaje_prog}"
 
-
+    def calcular_pago(self, horas_trabajadas):
+        pago_total = horas_trabajadas * self.pago_por_hora
+        return f"El pago total para el desarrollador {self.nombre} por las {horas_trabajadas} horas es: {pago_total} soles"
 
 class Instructor(Empleado):
     
@@ -97,8 +100,10 @@ print(admin.obtener_nombre_completo())
 
 print('----------- Desarrollador ------------------')
 
-des = Desarrollador("Jaime","Gomez","Trujillo","Python")
+des = Desarrollador("Jaime","Gomez","Trujillo","Python", 175)
 print(des.obtener_experiencia())
+print(des.calcular_pago(24))
+
 
 print('----------- Instructor ------------------')
 
