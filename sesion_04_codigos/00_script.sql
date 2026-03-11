@@ -18,3 +18,9 @@ CREATE TABLE EMPLEADOS (
 	PRIMARY KEY (NRO_EMP)
 );
 
+
+-- Eliminar tabla
+/*
+USE HR;
+DROP TABLE EMPLEADOS;
+*/
