@@ -5,9 +5,10 @@
 -- DROP DATABASE HR;
 
 -- Seleccionar la base de datos HR
-USE HR;
+-- USE HR;
 
 -- Crea la tabla EMPLEADOS
+/*
 CREATE TABLE EMPLEADOS (
 	NRO_EMP int(11) NOT NULL AUTO_INCREMENT,
 	NOMBRE varchar(50) NOT NULL,
@@ -17,10 +18,23 @@ CREATE TABLE EMPLEADOS (
 	FECHA_CONTRATO date ,
 	PRIMARY KEY (NRO_EMP)
 );
-
+*/
 
 -- Eliminar tabla
 /*
 USE HR;
 DROP TABLE EMPLEADOS;
 */
+
+-- Insertar registros en la tabla EMPLEADOS
+INSERT INTO EMPLEADOS (NOMBRE, APELLIDO, SEXO, FECHA_NACIMIENTO, FECHA_CONTRATO) VALUES
+('Carlos', 'Ramirez', 'H', '1990-05-12', '2020-03-15'),
+('Ana', 'Torres', 'M', '1992-08-21', '2021-06-10'),
+('Luis', 'Gomez', 'H', '1988-11-03', '2019-09-01'),
+('Maria', 'Lopez', 'M', '1995-02-14', '2022-01-20'),
+('Jorge', 'Castro', 'H', '1987-07-30', '2018-05-12'),
+('Elena', 'Vargas', 'M', '1993-09-18', '2021-11-08'),
+('Pedro', 'Sanchez', 'H', '1991-04-09', '2020-07-22'),
+('Lucia', 'Fernandez', 'M', '1996-12-01', '2023-02-15'),
+('Miguel', 'Rojas', 'H', '1989-03-27', '2019-10-10'),
+('Sofia', 'Herrera', 'M', '1994-06-05', '2022-08-30');
