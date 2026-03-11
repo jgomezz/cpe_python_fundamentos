@@ -27,6 +27,7 @@ DROP TABLE EMPLEADOS;
 */
 
 -- Insertar registros en la tabla EMPLEADOS
+/*
 INSERT INTO EMPLEADOS (NOMBRE, APELLIDO, SEXO, FECHA_NACIMIENTO, FECHA_CONTRATO) VALUES
 ('Carlos', 'Ramirez', 'H', '1990-05-12', '2020-03-15'),
 ('Ana', 'Torres', 'M', '1992-08-21', '2021-06-10'),
@@ -38,3 +39,11 @@ INSERT INTO EMPLEADOS (NOMBRE, APELLIDO, SEXO, FECHA_NACIMIENTO, FECHA_CONTRATO)
 ('Lucia', 'Fernandez', 'M', '1996-12-01', '2023-02-15'),
 ('Miguel', 'Rojas', 'H', '1989-03-27', '2019-10-10'),
 ('Sofia', 'Herrera', 'M', '1994-06-05', '2022-08-30');
+*/
+
+-- Realizar consultas a las tablas
+
+-- SELECT * FROM EMPLEADOS;
+
+SELECT * FROM EMPLEADOS
+WHERE NOMBRE = 'Ana';
