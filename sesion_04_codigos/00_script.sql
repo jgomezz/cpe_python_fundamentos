@@ -67,6 +67,17 @@ SELECT * FROM EMPLEADOS
 WHERE UPPER(APELLIDO) LIKE '%o%' AND SEXO = 'M';
 */
 
+/*
 -- Cuantos empledos son mujeres?
 SELECT COUNT(*) FROM EMPLEADOS
 WHERE SEXO = 'M';
+*/
+
+/*
+SELECT NRO_EMP, APELLIDO, FECHA_CONTRATO 
+FROM EMPLEADOS
+WHERE SEXO = 'M';
+*/
+
+
+-- Ejercicio : Obtener los nombres de los varones que tengan la vocal a en su nombre
