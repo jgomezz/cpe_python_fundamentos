@@ -81,3 +81,35 @@ WHERE SEXO = 'M';
 
 
 -- Ejercicio : Obtener los nombres de los varones que tengan la vocal a en su nombre
+/*
+SELECT * FROM empleados
+WHERE UPPER(NOMBRE) LIKE '%a%' AND SEXO = 'H';
+*/
+
+-- Actualizar : UPDATE
+/*
+UPDATE EMPLEADOS 
+SET APELLIDO = 'Ramirez', NOMBRE='Carlos'
+WHERE NRO_EMP = 1;
+
+
+SELECT *
+FROM EMPLEADOS;
+*/
+
+
+-- Ejercicio : CAmbiar a mayuscula el apellido del empleado Elena
+-- Ejericio :  Cambiar a minuscula el nombre de Sofia
+
+/*
+INSERT INTO EMPLEADOS (NOMBRE, APELLIDO, SEXO, FECHA_NACIMIENTO, FECHA_CONTRATO) VALUES
+('Juan', 'Medrano', 'H', '1993-07-18', '2019-12-20'),
+('Silvia', 'Gutierres', 'M', '1990-08-21', '2022-07-10');
+*/
+
+-- Borrar registros
+DELETE FROM EMPLEADOS  
+WHERE NRO_EMP = 12;
+
+SELECT *
+FROM EMPLEADOS;
