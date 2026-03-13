@@ -14,16 +14,16 @@ from datetime import datetime, date
 config =  {"host":"localhost", 
            "user":"root", 
            "password":"", 
-           "db":"hr6"}
+           "db":"hr"}
 
-''' 
+#''' 
 # Insertar un registro
 conn = mysql.connector.connect(**config)
 cur = conn.cursor()
 
-sql = ("INSERT INTO employees "
-        "(first_name, last_name, hire_date, "
-        " gender, birth_date) "
+sql = ("INSERT INTO EMPLEADOS "
+        "(NOMBRE, APELLIDO, FECHA_CONTRATO, "
+        " SEXO, FECHA_NACIMIENTO) "
         "VALUES (%s, %s, %s, %s, %s)")
 
 
@@ -40,7 +40,7 @@ conn.close()
 
 #'''
 
-#''' 
+''' 
 # Insertar un registro con error
 
 conn = mysql.connector.connect(**config)
@@ -68,7 +68,7 @@ conn.close()
 
 
 
-#''' Insertar de un registro
+''' Insertar de un registro
 
 conn = mysql.connector.connect(**config)
 cur = conn.cursor()
@@ -116,7 +116,7 @@ conn.close()
 #'''
 
 
-#'''
+'''
 
 # Insercion de varios registro
 
