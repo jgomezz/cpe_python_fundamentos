@@ -16,7 +16,7 @@ config =  {"host":"localhost",
            "password":"", 
            "db":"hr"}
 
-#''' 
+''' 
 # Insertar un registro
 conn = mysql.connector.connect(**config)
 cur = conn.cursor()
@@ -46,11 +46,11 @@ conn.close()
 conn = mysql.connector.connect(**config)
 cur = conn.cursor()
 
-sql = ("INSERT INTO employees "
-        "(first_name, last_name, hire_date, gender, birth_date) "
+sql = ("INSERT INTO EMPLEADOS "
+        "(NOMBRE, APELLIDO, FECHA_CONTRATO, SEXO, FECHA_NACIMIENTO) "
         "VALUES (%s, %s, %s, %s, %s)")
 
-values = ('Jaime', 'Gomez', None, 'H', None) 
+values = ('Jaime', 'Garcia', None, 'H', None) 
 
 try:
     cur.execute(sql,values)
@@ -67,18 +67,18 @@ conn.close()
 #'''
 
 
-
 ''' Insertar de un registro
 
 conn = mysql.connector.connect(**config)
 cur = conn.cursor()
 
-tomorrow = datetime.now().date()
+today = datetime.now().date()
 
-sql = ("INSERT INTO employees "
-        "(first_name, last_name, hire_date, gender, birth_date) "
+sql = ("INSERT INTO EMPLEADOS "
+        "(NOMBRE, APELLIDO, FECHA_CONTRATO, SEXO, FECHA_NACIMIENTO) "
         "VALUES (%s, %s, %s, %s, %s)")
-values = ('Juan', 'Valdez', tomorrow, 'H', date(1980, 6, 14)) 
+
+values = ('Juan', 'Valdez', today, 'H', date(1980, 6, 14)) 
 
 cur.execute(sql,values)
 
@@ -92,47 +92,25 @@ conn.close()
 #'''
 
 
-''' Insertar de un registro con error
-
-conn = mysql.connector.connect(**config)
-cur = conn.cursor()
-
-tomorrow = datetime.now().date()
-
-sql = ("INSERT INTO employees "
-        "(first_name, last_name, hire_date, gender, birth_date) "
-        "VALUES (%s, %s, %s, %s, %s)")
-values = ('Juan', 'Valdez', tomorrow, 'H', date(1980, 6, 14)) 
-
-cur.execute(sql,values)
-
-emp_no = cur.lastrowid
-print("Numero de empleado " , emp_no)
-
-conn.commit()
-
-conn.close()
-
 #'''
-
-
-'''
 
 # Insercion de varios registro
 
 conn = mysql.connector.connect(**config)
 cur = conn.cursor()
 
-tomorrow = datetime(2020,3,1)
+tomorrow = datetime(2026,3,1)
 #tomorrow = datetime.now().date()
 
-sql = ("INSERT INTO employees "
-        "(first_name, last_name, hire_date, gender, birth_date) "
+sql = ("INSERT INTO EMPLEADOS "
+        "(NOMBRE, APELLIDO, FECHA_CONTRATO, SEXO, FECHA_NACIMIENTO) "
         "VALUES (%s, %s, %s, %s, %s)")
+
 values = (
-    ('Juan', 'Valdez', tomorrow, 'M', date(1980, 6, 14)),
-    ('Maria', 'Rosado', tomorrow, 'M', date(1990, 10, 24)),
-    ('Percy', 'Maldonado', tomorrow, 'M', date(2000, 6, 23)))
+                ('Juan', 'Valdez', tomorrow, 'M', date(1980, 6, 14)),
+                ('Maria', 'Rosado', tomorrow, 'M', date(1990, 10, 24)),
+                ('Percy', 'Maldonado', tomorrow, 'M', date(2000, 6, 23))
+        )
 
 cur.executemany(sql,values)
 
