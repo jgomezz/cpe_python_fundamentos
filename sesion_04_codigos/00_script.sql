@@ -52,3 +52,19 @@ WHERE NOMBRE = 'Ana';
 
 SELECT * FROM EMPLEADOS
 WHERE UPPER(NOMBRE) = 'ANA';
+
+/*
+-- Listado de empleados que tenga la letra u en su nombre
+SELECT * FROM EMPLEADOS
+WHERE UPPER(NOMBRE) LIKE '%u%';
+*/
+
+/*
+-- Deseo los empleados que son mujeres y tienen en su apellido la letra o
+SELECT * FROM EMPLEADOS
+WHERE UPPER(APELLIDO) LIKE '%o%' AND SEXO = 'M';
+*/
+
+-- Cuantos empledos son mujeres?
+SELECT COUNT(*) FROM EMPLEADOS
+WHERE SEXO = 'M';
