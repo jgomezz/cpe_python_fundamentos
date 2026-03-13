@@ -50,8 +50,10 @@ SELECT * FROM EMPLEADOS
 WHERE NOMBRE = 'Ana';
 */
 
+/*
 SELECT * FROM EMPLEADOS
 WHERE UPPER(NOMBRE) = 'ANA';
+*/
 
 /*
 -- Listado de empleados que tenga la letra u en su nombre
