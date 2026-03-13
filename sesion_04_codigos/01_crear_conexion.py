@@ -15,7 +15,7 @@ Comando para instalar el driver de la base de datos en Python
 python -m pip install mysql-connector-python
 python -m pip uinstall mysql-connector-python
 
-C:/Users/jgomez/AppData/Local/Programs/Python/Python310/python -m pip install mysql-connector-python
+C:/Users/tdigital/AppData/Local/Programs/Python/Python314/python.exe -m pip install mysql-connector-python
 
 Crear usuario:
 
@@ -34,7 +34,7 @@ Cadena de conexion:
 '''
 
 # Importando librerias
-import mysql.connector
+import mysql.connector 
 
 '''
 config =  {"host":"localhost", 
