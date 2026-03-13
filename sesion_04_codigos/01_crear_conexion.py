@@ -2,7 +2,7 @@
 Curso : Programacion Basica de Python
 Sesion : 04
 Tema : Introduccion a Python -  Conexion a BBDD
-Fecha : 08/03/2022
+Fecha : 08/03/20XX
 Author : Jaime Gomez
 Version : 1.2
 '''
@@ -11,8 +11,11 @@ Version : 1.2
 '''
 Comando para instalar el driver de la base de datos en Python
 
-
+# instlacion
 python -m pip install mysql-connector-python
+
+
+# Desintalar
 python -m pip uinstall mysql-connector-python
 
 C:/Users/tdigital/AppData/Local/Programs/Python/Python314/python.exe -m pip install mysql-connector-python
@@ -23,13 +26,6 @@ Crear usuario:
     IDENTIFIED  BY '123456aB$';
 
     GRANT ALL PRIVILEGES ON *.* TO 'prueba'@'localhost';
-
-Cadena de conexion:
-
-    config =  {"host":"localhost", 
-            "user":"prueba", 
-            "password":"123456aB$",  
-            "db":"world"}
 
 '''
 
@@ -58,7 +54,7 @@ from mysql.connector import errorcode
 config =  {"host":"localhost", 
            "user":"root", 
            "password":"",  
-           "db":"mysql2"}
+           "db":"hr"}
 
 conn = None
 
